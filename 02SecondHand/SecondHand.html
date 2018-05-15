@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SecondHand</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #body {
+        background-color: #eee;
+        font-weight: bold;
+    }
+    /* 学号密码 */
+    
+    .header1 {
+        background-color: #eef5fe;
+        width: 800px;
+        height: 35px;
+        position: relative;
+        left: 300px;
+        top: 15px;
+        font-size: 17px;
+        font-family: "微软雅黑"
+    }
+    /* 后面文字 */
+    
+    .header2 {
+        background-color: #eef5fe;
+        width: 500px;
+        height: 27px;
+        position: relative;
+        left: 1150px;
+        font-size: 15px;
+        bottom: 18px;
+    }
+    /* 第一张图片 tust */
+    
+    .tp1 {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 300px;
+    }
+    /* 第二张图片 天津科技大学*/
+    
+    .tp2 {
+        width: 800px;
+        height: 150px;
+        position: relative;
+        left: 330px;
+    }
+    /* 第三张图片  发布信息图片*/
+    
+    .tp3 {
+        width: 126px;
+        height: 126px;
+        position: relative;
+        left: 375px;
+        bottom: 12px;
+    }
+    /* 第三张图片下文字 */
+    
+    .tp3_1 {
+        position: relative;
+        left: 277px;
+        top: 69px;
+        font-family: "微软雅黑";
+        font-size: 18px;
+        color: #2973b4;
+    }
+    /* 第四张图片 联系客服图片 */
+    
+    .tp4 {
+        width: 126px;
+        height: 126px;
+        position: relative;
+        left: 345px;
+        bottom: 12px;
+    }
+    /* 第四张图片下文字 */
+    
+    .tp4_1 {
+        position: relative;
+        left: 248px;
+        top: 69px;
+        font-family: "微软雅黑";
+        font-size: 18px;
+        color: #2973b4;
+    }
+    /* 文字“首页” */
+    
+    .index {
+        position: relative;
+        left: 955px;
+        top: 10px;
+        font-size: 18px;
+        color: #2973b4;
+    }
+    /* 搜索框部分 */
+    
+    .body2 {
+        height: 40px;
+        width: 1400px;
+        position: relative;
+        left: 270px;
+        top: 10px;
+        background-color: #ccffff;
+        font-size: 20px;
+        font-family: "微软雅黑";
+    }
+    /* 搜索框 */
+    
+    .search {
+        position: relative;
+        left: 570px;
+        top: 2px;
+    }
+    /* 商品分类块 */
+    
+    .b {
+        width: 300px;
+        height: 35px;
+        position: relative;
+        top: 20px;
+        left: 295px;
+        background-color: #99ffff;
+        float: left;
+    }
+    /*市场新闻块*/
+    
+    .b1 {
+        width: 600px;
+        height: 35px;
+        position: relative;
+        top: 20px;
+        left: 320px;
+        background-color: #99ffff;
+        float: left;
+    }
+    /* 最新动态块 */
+    
+    .b2 {
+        width: 415px;
+        height: 35px;
+        position: relative;
+        top: 20px;
+        left: 345px;
+        background-color: #99ffff;
+        float: left;
+    }
+    /*商品分类文字 */
+    
+    .b_1 {
+        position: relative;
+        left: 114px;
+        top: 5px;
+        font-size: 18px;
+        color: #404f4f;
+        font-family: "微软雅黑";
+    }
+    /* 市场新闻文字 */
+    
+    .b1_1 {
+        position: relative;
+        left: 264px;
+        top: 5px;
+        font-size: 18px;
+        color: #404f4f;
+        font-family: "微软雅黑";
+    }
+    /* 最新动态文字 */
+    
+    .b2_1 {
+        position: relative;
+        left: 164px;
+        top: 5px;
+        font-size: 18px;
+        color: #404f4f;
+        font-family: "微软雅黑";
+    }
+    /*   商品分类下列表 */
+    
+    .b_2 {
+        width: 330px;
+        height: 500px;
+        position: relative;
+        left: 280px;
+        color: #497eb7;
+    }
+    /* 市场新闻下列表 */
+    
+    .b1_2 {
+        width: 625px;
+        height: 500px;
+        position: relative;
+        bottom: 470px;
+        left: 606px;
+        color: #525252;
+    }
+    /* 最新动态下列表 */
+    
+    .b2_2 {
+        width: 440px;
+        height: 500px;
+        position: relative;
+        bottom: 975px;
+        left: 1230px;
+    }
+    
+    ul {
+        padding: 15px;
+        margin: 5px;
+    }
+    
+    li {
+        display: block;
+        margin-top: 3px;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 15px;
+        background-color: #ddd;
+        cursor: pointer;
+    }
+    /* 市场新闻商品价格 */
+    
+    .R {
+        float: right;
+        color: #AA2C2C;
+    }
+    /* 最新动态日期 */
+    
+    .R1 {
+        float: right;
+    }
+</style>
+
+<body id="body">
+
+    <div class="header1 ">
+        <form class="form-inline">
+            <div class="form-group">
+                <p class="form-control-static">学号:</p>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="请输入学号">
+            </div>
+            <div class="form-group">
+                <p class="form-control-static">密码:</p>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="请输入密码">
+            </div>
+            <button class="btn btn-info">登录</button>
+        </form>
+    </div>
+
+
+    <div class="header2 ">天津科技大学二手市场 提倡节约，共倡和谐！</div>
+
+    <div>
+        <img class="tp1" src="img/MarketLogo.png" alt="">
+        <img class="tp2" src="img/mk_00.jpg" alt="">
+        <a href="#"><img class="tp3" src="img/fb.jpg" alt=""></a><a class="tp3_1" href="#"><strong>发布信息</strong></a>
+        <a href="#"><img class="tp4" src="img/lx.jpg" alt=""></a><a class="tp4_1" href="#"><strong>联系客服</strong></a>
+
+    </div>
+    <span class="index"><strong>首页</strong></span>
+    <div class="body2">
+        <div class="search">
+            <form class="form-inline">
+                <div class="form-group">
+                    <p class="form-control-static">搜索:</p>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="请输入关键字">
+                </div>
+                <button class="btn btn-info"><strong>搜索</strong></button>
+            </form>
+        </div>
+    </div>
+
+    <form class="form-inline">
+        <div class="b"><span class="b_1"><strong>商品分类</strong></span></div>
+        <div class="b1"><span class="b1_1"><strong>最新动态</strong></span></div>
+        <div class="b2"><span class="b2_1"><strong>市场新闻</strong></span></div>
+    </form>
+
+    <div class="b_2">
+        <ul></ul>
+        <ul>
+            <li><span>家用电器</span></li>
+            <li><span>手机、数码、京东通信</span></li>
+            <li><span>电脑、办公</span></li>
+            <li><span>家居、家具、家装、厨具</span></li>
+            <li><span>男装、女装、童装、内衣</span></li>
+            <li><span>个护化妆、清洁用品、宠物</span></li>
+            <li><span>鞋靴、箱包、珠宝、奢侈品</span></li>
+            <li><span>户外运动、钟表</span></li>
+            <li><span>汽车、汽车用品</span></li>
+            <li><span>母婴、玩具乐器</span></li>
+            <li><span>食品、酒类、生鲜、特产</span></li>
+            <li><span>医药保健</span></li>
+            <li><span>图书、音像、电子书</span></li>
+            <li><span>彩票、旅行、充值、票务</span></li>
+            <li><span>理财、众筹、白条、保险</span></li>
+        </ul>
+    </div>
+    <div class="b1_2 ">
+        <ul>
+            <li><span>苹果iPhone6 (全网通)</span><span class="R">¥3700 </span></li>
+            <li><span>小米3 (Mi3/联通版)</span><span class="R">¥780 </span></li>
+            <li><span>苹果iPhone 5S (双4G)</span><span class="R">¥2050 </span></li>
+            <li><span>小米红米Note (双卡/增强版/移动4G/2GB RAM)</span><span class="R">¥799 </span></li>
+            <li><span>魅族魅蓝Note (移动4G)</span><span class="R">¥799 </span></li>
+            <li><span>华为Ascend P7 (联通4G)</span><span class="R">¥860 </span></li>
+            <li><span>金立S5.5 (GN9000/双3G)</span><span class="R">¥2299 </span></li>
+            <li><span>OPPO R9 (全网通)</span><span class="R">¥2499 </span></li>
+        </ul>
+    </div>
+    <div class="b2_2">
+        <ul>
+            <li><span>杭州二手房第六周成交破千套</span></span><span class="R1">05-23 </span></li>
+            <li><span>德州二手房交易量环比增三成</span></span><span class="R1">05-23 </span></li>
+            <li><span>厦门4月二手房交易量价齐升</span></span><span class="R1">05-23 </span></li>
+            <li><span>受益新政效应 二手房火速回暖</span></span><span class="R1">05-23 </span></li>
+            <li><span>昆明一二手房价跌幅今年来最大</span></span><span class="R1">05-23 </span></li>
+            <li><span>新政首月山东二手房环比增三成</span></span><span class="R1">05-23 </span></li>
+            <li><span>4月二手房成交量环比增三成</span></span><span class="R1">05-23 </span></li>
+            <li><span>新政首月山东二手房环比增三成</span></span><span class="R1">05-23 </span></li>
+            <li><span>央行接连降息二手房报价“跳涨”</span></span><span class="R1">05-23 </span></li>
+            <li><span>美国1月纯苯价格走低 结算为2.12美元</span></span><span class="R1">01-21 </span></li>
+            <li><span>攀枝花钛白粉出口属地报关实现零突破</span></span><span class="R1">01-21 </span></li>
+            <li><span>民权传达县委11届九次全会和经济工作会议精神</span></span><span class="R1">01-21 </span></li>
+            <li><span>稳住！听听石化联合会会长对行业形势的判断</span></span><span class="R1">01-21 </span></li>
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html>
