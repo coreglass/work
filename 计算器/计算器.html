@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>计算器</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javaScript/jquery.js"></script>
+    <script src="javaScript/jjcc.js"></script>
+</head>
+
+<body>
+
+    <canvas id="c"></canvas>
+    <div class="all"></div>
+    <div class="header">
+        <input id="num1" type="text" />
+        <span><button id="btnComputeFlag" class="btn1">   </button></span>
+        <input id="num2" />
+        <span> <button id="btnEqu"class="btn1" onclick="Add('num1', 'num2', 'result');" > = </button></span>
+        <input id="result" />
+
+        <div class="bodys">
+            <ul>
+                <button id="btnAdd" class="myButton" onclick="computeFlagChange(1, '+');"> + </button>
+                <button id="btnSub" class="myButton" onclick="computeFlagChange(2, '-');"> - </button>
+                <button id="btnMul" class="myButton" onclick="computeFlagChange(3, '*');"> ×</button>
+                <button id="btnDiv" class="myButton" onclick="computeFlagChange(4, '/');"> ÷ </button>
+            </ul>
+            <ul>
+                <button id="btn0" class="myButton" onclick="btnNumber('0');"> 0 </button>
+                <button id="btn1" class="myButton" onclick="btnNumber('1');"> 1 </button>
+                <button id="btn2" class="myButton" onclick="btnNumber('2');"> 2 </button>
+                <button id="btn3" class="myButton" onclick="btnNumber('3');"> 3 </button>
+            </ul>
+            <ul><button id="btn4" class="myButton" onclick="btnNumber('4');"> 4 </button>
+                <button id="btn5" class="myButton" onclick="btnNumber('5');"> 5 </button>
+                <button id="btn6" class="myButton" onclick="btnNumber('6');"> 6 </button>
+                <button id="btn7" class="myButton" onclick="btnNumber('7');"> 7 </button>
+            </ul>
+
+            <ul>
+                <button id="btn8" class="myButton" onclick="btnNumber('8');"> 8 </button>
+                <button id="btn9" class="myButton" onclick="btnNumber('9');"> 9 </button>
+                <button id="btn9" class="myButton" onclick="btnNumber('.');"> . </button>
+                <button id="btnEqu" class="myButton" onclick="Add('num1', 'num2', 'result')"> = </button>
+            </ul>
+            <button id="clear" onclick="clearCE()">清除</button>
+        </div>
+    </div>
+    <div class="history">
+        <ol>
+            历史记录
+        </ol>
+    </div>
+
+    <span class="name">计算器</span>
+    <span class="right">版权所有@15102318朱少伟</span>
+
+</body>
+
+
+
+</html>
